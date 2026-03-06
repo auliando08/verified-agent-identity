@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'cloud'
+        description: 'auliando'
         required: true
-        default: 'cloud'
+        default: 'auliando'
       agent_description:
-        description: 'cloud'
+        description: 'auliando'
         required: true
-        default: 'cloud AI Agent'
+        default: 'auliando AI Agent'
 
 jobs:
   verify:
